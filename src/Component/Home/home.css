@@ -1,0 +1,166 @@
+
+
+ .carousel-caption>h1{
+  
+  color: orangered;
+  text-shadow: 1rem;
+ }
+
+ .carousel-caption>h2{
+  color: white;
+  font-size: 3rem;
+  font-family: Tangerine, cursive;
+ }
+.main{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1{
+font-family: Concert One, cursive;
+}
+
+em{
+  font-family:'Quicksand', sans-serif;
+  font-size: large;
+}
+
+p,h5,h6,h4,h3{
+font-family: 'Quicksand', sans-serif;
+font-size: larger;
+}
+
+.stocker{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+   gap: 2rem;
+   padding: 2rem 2rem;
+}
+
+.word{
+  flex-basis: 60%;
+  padding: 2rem 2rem;
+  margin-left: 2rem;
+   justify-content: center;
+  text-align: justify;
+}
+.stockimage{
+  flex-basis: 40%;
+    width:500;
+    height: 450;
+   
+}
+
+
+.btndo:hover{
+background-color: orange;
+}
+
+.google{
+  display: flex;
+  justify-content: center;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.google:hover{
+  cursor: pointer;
+}
+
+.desktop{
+  display: flex;
+  justify-content: center;
+}
+.download>h1{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  position: relative;
+  align-items: center;
+}
+hr{
+  border-style: inset;
+  border-width: 1px;
+}
+.card1{
+  margin-left: 4rem;
+  padding: 2rem 2rem;
+}
+.card2{
+  padding: 2rem 2rem;
+}
+
+.card3{
+  margin-right: 2rem;
+  padding: 2rem 2rem;
+}
+
+
+.dword{
+   padding: 2rem 2rem;
+  margin-right: 2rem;
+    justify-content: center;
+  text-align: justify;
+}
+
+.download{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card{
+  padding: 2rem 2rem;
+  margin: 1.5rem  ;
+  gap: 3rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    height: auto;
+    
+  }
+  .stocker{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .stockimage{
+    width:300;
+    height: 400;
+    justify-content: center;
+    align-content: center;
+    padding-left: 1.5rem;
+  }
+  .desktop{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+  .download{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card1{
+  margin-left: 0;
+  padding: 2rem 2rem;
+  width: 100%;
+}
+.card2{
+  padding: 2rem 2rem;
+  width: 100%;
+}
+.card3{
+  padding: 2rem 2rem;
+  width: 100%;
+  margin-right: 0;
+}
+  
+}
+
