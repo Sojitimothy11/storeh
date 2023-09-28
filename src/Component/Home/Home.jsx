@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import "../Home/home.css";
 
@@ -102,17 +102,12 @@ const Home = () => {
               invoice customers from anywhere whether you intend to sell on
               Whatsapp, online or in person, we just made you more remote with
               the stocker app.
-            </p>
-
-            <strong>
-              <em>
-                Go Mobile Now. Enable Your Team Manage Sales Individually.
-                Connect your team to same account where various roles can
-                supervise, track orders, audit inventory and create invoices
-              </em>
-            </strong>
-
-            <p>
+              <br />
+              Go Mobile Now. Enable Your Team Manage Sales Individually. Connect
+              your team to same account where various roles can supervise, track
+              orders, audit inventory and create invoices
+              <br />
+              <p />
               <strong>Easy delivery service integrations</strong>
               <br />
               Do you want to plug-in a logistics company, using logistics API of
@@ -130,29 +125,34 @@ const Home = () => {
             />
           </div>
           <div className="stockimage">
-            <img
-              src={
-                "https://res.cloudinary.com/dxrxekidt/image/upload/v1695102154/Snapshot_230919063323-removebg-preview_efytrk.png"
-              }
-              alt="..."
-            />
-            <br />
-            <a href="https://play.google.com/store/apps/details?id=com.dabarobjects.storeharmony.stocker&hl=en">
-              <button className="btndo btn btn-success">Download</button>
-              {""}
-            </a>
+            <center>
+              <img
+                src={
+                  "https://res.cloudinary.com/dxrxekidt/image/upload/v1695102154/Snapshot_230919063323-removebg-preview_efytrk.png"
+                }
+                alt="..."
+              />
+              <br />
+              <a href="https://play.google.com/store/apps/details?id=com.dabarobjects.storeharmony.stocker&hl=en">
+                <button className="btndo btn btn-success">Download</button>
+                {""}
+              </a>
+            </center>
           </div>
         </div>
         <div className="desktop">
           <div className="dimage">
-            <img
-              src={
-                "https://res.cloudinary.com/dxrxekidt/image/upload/v1695102153/Snapshot_230919063512-removebg-preview_cxaixe.png"
-              }
-              width="550"
-              height="400"
-              alt="..."
-            />
+            <center>
+              {" "}
+              <img
+                src={
+                  "https://res.cloudinary.com/dxrxekidt/image/upload/v1695102153/Snapshot_230919063512-removebg-preview_cxaixe.png"
+                }
+                width="550"
+                height="400"
+                alt="..."
+              />
+            </center>
           </div>
 
           <div className="dword">
@@ -176,7 +176,7 @@ const Home = () => {
       </div>
       <h1 className="text-center">Download Software Now</h1> <br />
       <div className="download">
-        <div className="card1 col-4 sm-12">
+        <div className="card1 col-4 sm-12 card">
           <strong>
             <h4>Get Store Harmony Desktop</h4>
           </strong>
@@ -190,7 +190,7 @@ const Home = () => {
             <button className="btndo  btn btn-success">Download</button>
           </a>
         </div>
-        <div className="card2 col-4 sm-12">
+        <div className="card2 col-4 sm-12 card">
           <strong>
             <h4>Get Store Harmony For Windows 7</h4>
           </strong>
@@ -202,7 +202,7 @@ const Home = () => {
             <button className="btndo  btn btn-success">Download</button>
           </a>
         </div>
-        <div className="card3 col-4 sm-12">
+        <div className="card3 col-4 sm-12 card">
           <strong>
             <h4>Get Store Harmony For MAC</h4>
           </strong>
@@ -217,11 +217,9 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div>
-        <h1>Footer</h1>
-      </div>
+      
     </div>
   );
-}
+};
 
 export default Home;

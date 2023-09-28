@@ -23,7 +23,7 @@ const Navbar = () => {
           Partnership
         </Link>
         <Link to="Updates" href="/Updates/">
-          Latest Update
+          Updates
         </Link>
       </nav>
     </div>

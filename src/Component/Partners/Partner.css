@@ -20,7 +20,7 @@
 }
 
 h1{
-font-family: Concert One, cursive;
+font-family: 'Quicksand', sans-serif;
 }
 
 p,h5,h6,h4,h3,button{
@@ -86,14 +86,47 @@ text-align: center;
   .main {
     width: 100%;
     height: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
     
+  }
+ .hh,h1,h2{
+  padding-top: 5px;
+    font-size: 15px;
+  }
+  .hp,em{
+    font-size: 12px;
   }
   .subscription{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-content: center;
+  margin: 0;
+  padding: 0;
 
+}
+.subscription h2{
+  font-size: 15px;
+}
+
+.classic{
+  margin-top: 0;
+  margin-left: 2rem;
+}
+.cloud{
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
+.subscription h3{
+  font-size: 13px;
+}
+
+.subscription li,p{
+  font-size: 12px;
 }
 .basic{
 width: 100%;
@@ -163,16 +196,12 @@ iframe{
   .adbs {
     display: none;
   }
-  .lgft {
-    display: none;
-  }
+ 
   .adsm {
     display: block;
   }
 
-  .smft {
-    display: block;
-  }
+ 
 
   
  

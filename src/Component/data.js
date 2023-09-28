@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    title: "Inventory Management",
+    title: "INVENTORY MANAGEMENT",
     content:
       "If you have ever experienced riots or natural disasters, you know that your stores inventory may not be safe from hoodlums. <br/>Our inventory management module helps to power your store inventory supporting various tasks such as purchases, raw materials portioning, finished goods, expiry tracking, multi store transfers, labelling, profits, bundles. Storeharmony is the first to bring StoreInsure product which automated insurance cover for any store whose inventory is stored in its cloud.",
     thumbnail:
@@ -17,7 +17,7 @@ const data = [
     content:
       "Login to your dashboard to follow your business reports, monitor sales, inventory and cash for multiple stores. Update prices of goods from anywhere and track electronic commerce orders.  From the comfort of your head office, you can analyze sales from all your stores from across the nation, you can get consolidated sales from your dashboard and consolidated profit for the day and the month reports in real-time",
     thumbnail:
-      "https://res.cloudinary.com/dxrxekidt/image/upload/v1695033860/Excel-Classes-NYC__tzwggv.jpg",
+      "https://res.cloudinary.com/dxrxekidt/image/upload/v1695045729/Snapshot_230918145820_gll4mc.png",
     createdAt: "1st of July, 2023",
     author: {
       name: "augustine Jacob",
@@ -73,11 +73,23 @@ const data = [
   },
   {
     id: 7,
-    title: "Cloud Data Storage",
+    title: "CLOUD DATA STORAGE",
     content:
       "Storeharmony automatically back up your all your data on cloud, meaning a cloud account is generated for you once you have an account with us. The Cloud based dashboard gives existing users access to all their reports, data and ecommerce linking of their stores. You must have deployed the desktop version or the android version to get the full benefit of the online dashboard",
     thumbnail:
       "https://res.cloudinary.com/dxrxekidt/image/upload/v1695032286/R_xlfvqf.jpg",
+    createdAt: "25th Sept 2023",
+    author: {
+      name: "store harmony",
+    },
+  },
+  {
+    id: 8,
+    title: "VOUCHERS/PAYMENT INTEGRATION",
+    content:
+      "Store harmony is built in to help stores and shops track orders from online stores and is able to integrate cashless payments in a way to helps to automatically stay consistent with inventory",
+    thumbnail:
+      "https://res.cloudinary.com/dxrxekidt/image/upload/v1688664040/istockphoto-544352270-612x612_jxpi0j.jpg",
     createdAt: "25th Sept 2023",
     author: {
       name: "store harmony",

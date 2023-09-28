@@ -59,6 +59,10 @@ button a:hover {
     align-items: center;
   }
 
+  h2{
+    font-size: 1rem;
+  }
+
   .object {
     max-width: 100%;
   }

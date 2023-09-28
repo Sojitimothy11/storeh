@@ -5,10 +5,10 @@ import "../Partners/Partner.css"
 const Partner = () => {
   return (
     <div className="main">
-      <h2 className=" text-center">
+      <h2 className="text-center hh">
         PARTNER WITH US BY SUBSCRIBING INTO OUR LICENSES
       </h2>
-      <p className="text-center">
+      <p className="text-center hp">
         Requirement for onboarding are: PC/Laptop with minimum of 4gig
         Ram,500HDD| Internet Connectivity| UPS| Receipt Printer.| Android
         Phone(Stocker).{" "}
@@ -112,7 +112,7 @@ const Partner = () => {
             </div>
             <div>
               <a href="tel:+2348143188076">
-                <h6>Call Us</h6>
+                <h3>Call Us</h3>
               </a>
             </div>
           </div>
@@ -128,11 +128,9 @@ const Partner = () => {
             </div>
             <div>
               <a href="mailto:sales@storeharmony.com" className="lgft">
-                <h6>Email Us</h6>
+                <h3>Email Us</h3>
               </a>
-              <a href="mailto:sales@storeharmony.com" className="smft">
-                <h6>Email</h6>
-              </a>
+             
             </div>
           </div>
         </div>

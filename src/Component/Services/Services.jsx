@@ -28,7 +28,7 @@ const Services = () => {
                       "https://res.cloudinary.com/dxrxekidt/image/upload/v1693551879/36037093_348025832391235_3726168602143883264_n_m21yfe.jpg"
                     }
                     alt="..."
-                    width="50px"
+                    width="40px"
                   />
                 </div>
                 <button className="buttonLink">
