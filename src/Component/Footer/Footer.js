@@ -44,7 +44,7 @@ const Footer = () => {
           <i className="bi bi-youtube"></i>
         </a>
         {"   "}
-        <a href="https://web.facebook.com/search/top?q=store%20harmony">
+        <a href="https://web.facebook.com/storeharmony">
           <i className="bi bi-facebook"></i>
         </a>
       </div>

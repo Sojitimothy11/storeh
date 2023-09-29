@@ -3,7 +3,7 @@ const data = [
     id: 1,
     title: "INVENTORY MANAGEMENT",
     content:
-      "If you have ever experienced riots or natural disasters, you know that your stores inventory may not be safe from hoodlums. <br/>Our inventory management module helps to power your store inventory supporting various tasks such as purchases, raw materials portioning, finished goods, expiry tracking, multi store transfers, labelling, profits, bundles. Storeharmony is the first to bring StoreInsure product which automated insurance cover for any store whose inventory is stored in its cloud.",
+      "If you have ever experienced riots or natural disasters, you know that your stores inventory may not be safe from hoodlums. Our inventory management module helps to power your store inventory supporting various tasks such as purchases, raw materials portioning, finished goods, expiry tracking, multi store transfers, labelling, profits, bundles. Storeharmony is the first to bring StoreInsure product which automated insurance cover for any store whose inventory is stored in its cloud.",
     thumbnail:
       "https://res.cloudinary.com/dxrxekidt/image/upload/v1688200126/fashion2_cwka6w.jpg",
     createdAt: "25 September,2023",
@@ -49,7 +49,7 @@ const data = [
   },
   {
     id: 5,
-    title: "INTEGRATED POS/CARD PAYMENTS",
+    title: "INTEGRATED POS AND CARD PAYMENTS",
     content:
       "StoreHarmony growing multi channel mode of payment will enable you to link so many sales channels to a single inventory management backend all able to work offline/online with minimal supervision. Acquire your classy hardware from your preferred supplier and we will help you deploy our high grade POS software which also syncs its reports and data to the cloud and your mobile where you can monitor them and track inventory levels.The card payment innovation automatically simplifies steps for cashiers to accept payment cutting many error prone and cumbersome steps from the process. Building on wireless capabilities, Storeharmony integrated payment is an industry leader fully redefining the payment acceptance workflow for retail stores and merchants",
     thumbnail:
@@ -85,7 +85,7 @@ const data = [
   },
   {
     id: 8,
-    title: "VOUCHERS/PAYMENT INTEGRATION",
+    title: "VOUCHERS AND PAYMENT INTEGRATION",
     content:
       "Store harmony is built in to help stores and shops track orders from online stores and is able to integrate cashless payments in a way to helps to automatically stay consistent with inventory",
     thumbnail:
