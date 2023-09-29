@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import data from "../data";
 import "../Services/services.css";
-import Singlepage from "./Singlepage";
-
 
 const Services = () => {
   const [blogData, setBlogData] = useState(data);
